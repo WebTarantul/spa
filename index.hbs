@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{htmlWebpackPlugin.options.title}}</title>
+</head>
+<body>
+<div class="wrapper">
+  <form class="form">
+    <fieldset class="form__search">
+      <input type="search" name="search" id="search-input">
+      <input type="button" value="Search" class="form__btn">
+    </fieldset>
+  </form>
+  <div class="results">
+
+  </div>
+</div>
+
+<template class="tranding" id="tranding-list-template">
+  <ul class="tranding__list">
+    <li class="tranding__item">
+      <a class="tranding__link" href="#"></a>
+    </li>
+  </ul>
+</template>
+
+<template class="movie" id="trand-item-template">
+  <div class="movie">
+    <img src="" alt="" class="movie__img">
+    <h1 class="movie__title"></h1>
+    <p class="movie__descr"></p>
+    <ul class="recomendation__list">
+      <span class="recomendation__title"><b>Recomendation</b></span>
+      <li class="recomendation__item"><a href="" class="recomendation__link"></a></li>
+    </ul>
+  </div>
+</template>
+</body>
+</html>
